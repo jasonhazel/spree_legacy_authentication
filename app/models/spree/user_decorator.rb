@@ -2,7 +2,7 @@ module Spree
   User.class_eval do
     def valid_password?(password)
       if legacy_password?
-        return false unless User.legacy_password(self.encrypted_password, password) #Devise.secure_compare(self.encrypted_password, User.legacy_password(password))
+        return false unless User.legacy_password(self.encrypted_password, password)
         self.attributes = {
           password: password,
           password_confirmation: password, 

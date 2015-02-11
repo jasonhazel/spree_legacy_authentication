@@ -1,7 +1,7 @@
 SpreeLegacyAuthentication
 =========================
 
-Introduction goes here.
+ZenCart Legacy Authentication
 
 Installation
 ------------
